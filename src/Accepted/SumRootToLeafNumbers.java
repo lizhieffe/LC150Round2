@@ -1,5 +1,7 @@
 package Accepted;
 
+import Utils.TreeNode;
+
 public class SumRootToLeafNumbers {
 
 	int result = 0;

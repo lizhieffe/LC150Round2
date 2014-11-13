@@ -18,7 +18,7 @@ public class LinkedListCycle {
         		break;
         	else
         		p2 = p2.next;
-        } while (p1 != p2 && p1 != null && p2 != null)
+        } while (p1 != p2 && p1 != null && p2 != null);
         if (p1 == null || p2 == null)
         	return false;
         return true;

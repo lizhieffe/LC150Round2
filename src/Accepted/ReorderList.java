@@ -1,7 +1,5 @@
 package Accepted;
 
-import java.util.LinkedList;
-
 import Utils.ListNode;
 
 public class ReorderList {

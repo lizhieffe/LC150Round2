@@ -29,7 +29,6 @@ public class SortList {
             if (cNode == end)
                 toBreak = true;
             if (cNode.val < mid.val) {
-                ListNode tmp = midPrev.next;
                 midPrev.next = cNode;
                 pNode.next = cNode.next;
                 midPrev.next.next = mid;
